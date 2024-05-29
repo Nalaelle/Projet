@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./public/css/bases.css" />
+        <link rel="stylesheet" href="./public/css/index.css" />
+        <link rel="stylesheet" href="./public/css/components/cards.css" />
+        <script src="./js/profile.js" defer></script>
+        <title>ShareNgo</title>
+    </head>
+    <body>
+        <header>
+            <!-- <h1>ShareNgo</h1> -->
+            <div id="logo">
+                <img src="./public/assets/logo.png" alt="logo" />
+            </div>
+            <nav>
+                <!-- Barre de recherche -->
+                <label for="search-bar"></label>
+                <input type="search" id="search-bar" name="search" placeholder="Search..." />
+                <button>Rechercher</button>
+            </nav>
+            <!-- Bulle de profile -->
+            <div id="bubble">
+                <div id="profile">
+                    <!-- bulle : img logo -->
+                    <img src="./public/assets/chat.jpeg" alt="profile" />
+                </div>
+                <div id="toggle">
+                    <ul>
+                        <a href="./pages/account.html">Mon Compte</a>
+                    </ul>
+                    <ul>
+                        <a href="./pages/publication.html">Mes publications</a>
+                    </ul>
+                    <ul>
+                        <a href="./pages/reservation.html">Mes reservations</a>
+                    </ul>
+                    <ul>
+                        <a href="./pages/message.html">Mes conversations</a>
+                    </ul>
+                    <ul>
+                        <a href="./pages/settings.html">Paramètres</a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="container">
+                <!-- Cards -->
+                <article id="card">
+                    <div>
+                        <h2>Titre</h2>
+                        <p>Description</p>
+                    </div>
+                    <button>En savoir plus</button>
+                </article>
+
+                <!-- <article id="card">
+                    <div>
+                        <h2>Titre</h2>
+                        <p>Description</p>
+                    </div>
+                    <button>En savoir plus</button>
+                </article> -->
+            </section>
+        </main>
+        <footer>
+            <section id="end-section">
+                <button><a href="./index.html">Accueil</a></button>
+                <button><a href="./pages/publication.html">Publications</a></button>
+                <button><a href="./pages/message.html">Messages</a></button>
+            </section>
+            <p>&copy; 2021 ShareNgo. Tous droits réservés.</p>
+        </footer>
+    </body>
+</html>

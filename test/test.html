@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Paramètres</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Paramètres</h1>
+            </header>
+            <main>
+                <section class="profile-section">
+                    <div class="profile-pic"></div>
+                </section>
+                <section class="password-section">
+                    <h2>Changer le mot de passe</h2>
+                    <form>
+                        <label for="old-password">Ancien mot de passe</label>
+                        <input type="password" id="old-password" name="old-password" />
+
+                        <label for="new-password">Nouveau mot de passe</label>
+                        <input type="password" id="new-password" name="new-password" />
+
+                        <button type="submit">Changer le mot de passe</button>
+                    </form>
+                </section>
+                <section class="other-options">
+                    <div class="option">
+                        <input type="radio" id="help" name="options" />
+                        <label for="help">Aide</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" id="terms" name="options" />
+                        <label for="terms">CGU</label>
+                    </div>
+                    <button class="delete-account">Supprimer le compte</button>
+                </section>
+            </main>
+            <footer>
+                <button>Accueil</button>
+                <button>Publication</button>
+                <button>Message</button>
+            </footer>
+        </div>
+    </body>
+</html>

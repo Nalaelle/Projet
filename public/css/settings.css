@@ -1,0 +1,69 @@
+/*
+       <section class="password">
+                <h2>Changer le mot de passe</h2>
+                <form>
+                    <label for="old-password">Ancien mot de passe</label>
+                    <input type="password" id="old-password" name="old-password" />
+
+                    <label for="new-password">Nouveau mot de passe</label>
+                    <input type="password" id="new-password" name="new-password" />
+
+                    <button type="submit">Changer le mot de passe</button>
+                </form>
+        </section>
+        <section class="other-options">
+                <div class="option">
+                    <input type="radio" id="help" name="options" />
+                    <label for="help">Aide</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="terms" name="options" />
+                    <label for="terms">CGU</label>
+                </div>
+                <button class="delete-account" onclick="console.log('delete')">Supprimer le compte</button>
+        </section>
+
+*/
+.settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 94%;
+    width: 94%;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.password > h2 {
+    margin: 0;
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #444;
+}
+.password > form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    border-radius: 15px;
+}
